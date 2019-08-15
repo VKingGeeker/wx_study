@@ -9,4 +9,6 @@ springBoot整合mybatis学习
 <li>service、entity、mapper、controller初建
 
 ## 第 2 天
-continue...
+<li>注册页面、后台代码
+<li>登录页面、后台代码
+<li>欢迎页面、后台代码
