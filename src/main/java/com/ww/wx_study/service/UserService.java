@@ -20,4 +20,12 @@ public class UserService {
     public User getUser(int id) {
         return userMapper.getUser(id);
     }
+
+    public User login(String userName, String passWord) {
+        return userMapper.login(userName,passWord);
+    }
+
+    public int register(User user) {
+        return userMapper.register(user);
+    }
 }

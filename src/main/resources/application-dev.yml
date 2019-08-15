@@ -7,7 +7,14 @@ spring:
     password: root
     url: jdbc:mysql://localhost:3306/spring_study?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
-
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: utf-8
+    mode: html5
+    servlet:
+      content-type: text/html
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
   type-aliases-package: com.ww.wx_study.entity
